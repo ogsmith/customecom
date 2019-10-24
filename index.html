@@ -328,6 +328,14 @@
                             </div>
                             <div class="row control-group">
                                 <div class="form-group col-xs-12 floating-label-form-group controls">
+                                    <label>Company</label>
+                                    <input type="text" class="form-control" placeholder="Company" id="company" required data-validation-required-message="Please enter your company.">
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+
+                            <div class="row control-group">
+                                <div class="form-group col-xs-12 floating-label-form-group controls">
                                     <label>Email Address</label>
                                     <input type="email" class="form-control" placeholder="Email Address" id="email" required data-validation-required-message="Please enter your email address.">
                                     <p class="help-block text-danger"></p>
@@ -428,7 +436,7 @@
     $(".video-bg").wallpaper({
         source: {
             mp4: "assets/mp4/matrix.mp4",
-            poster: "assets/img/demo-bgs/video-bg-fallback.jpg"
+            // poster: "assets/img/demo-bgs/video-bg-fallback.jpg"
         }
     });
     </script>
